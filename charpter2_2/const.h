@@ -1,15 +1,15 @@
 /*************************************************************************
-    > File Name: main.cpp
+    > File Name: const.h
     > Author: liubiyongge
     > Mail: liubiyongge@163.com
-    > Created Time: 2018年10月19日 星期五 11时34分59秒
+    > Created Time: 2018年11月07日 星期三 13时20分35秒
  ************************************************************************/
 
-#include<iostream>
-using namespace std;
+#ifndef _CONST_H
+#define _CONST_H
 
-#include "MyExampleClass.h"	
-#include "ex2_1_Test.h"
+#define ERROR 0
+#define OK 	  1
+#define Status int
 
-
-
+#endif

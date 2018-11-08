@@ -1,15 +1,13 @@
 /*************************************************************************
-    > File Name: main.cpp
+    > File Name: header.h
     > Author: liubiyongge
     > Mail: liubiyongge@163.com
-    > Created Time: 2018年10月19日 星期五 11时34分59秒
+    > Created Time: 2018年11月02日 星期五 11时37分59秒
  ************************************************************************/
 
+#ifndef _HEADER_H
+#define _HEADER_H
 #include<iostream>
 using namespace std;
 
-#include "MyExampleClass.h"	
-#include "ex2_1_Test.h"
-
-
-
+#endif

@@ -3,11 +3,12 @@
     > Author: liubiyongge
     > Mail: liubiyongge@163.com
     > Created Time: 2018年10月12日 星期五 15时28分09秒
-    >function: Sequence table class define
+    >function: Sequence table class statement and define 
  ************************************************************************/
 #ifndef CLASS_FUNCION 
 #define CLASS_FUNCION
 
+#include "const.h"
 #include "class_outfunction.h"
 
 template <class ElemType> 
