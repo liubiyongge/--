@@ -2,21 +2,14 @@
     > File Name: header.h
     > Author: liubiyongge
     > Mail: liubiyongge@163.com
-    > Created Time: 2018年11月02日 星期五 10时05分22秒
-	>head file
+    > Created Time: 2018年11月08日 星期四 16时43分17秒
  ************************************************************************/
 
 #ifndef _HEADER_H
 #define _HEADER_H
-//class head
-#include<stdio.h>
-#include<malloc.h>
-#include<iostream>
+#include <iostream>
 #include<assert.h>
-#include<iomanip>
-#include<stdlib.h>
-#include <string.h>
-#include <cwchar>
-using namespace std;
+#include<malloc.h>
 
+using namespace std;
 #endif

@@ -59,7 +59,7 @@ public:
 	Status nextElem(ElemType e, ElemType & next_e);
 
 	// =
-	Linklist<ElemType> operator =(Linklist<ElemType> &rightR);
+	Linklist<ElemType> operator =(const Linklist<ElemType> &rightR);
 
 	Status priorElem(ElemType e, ElemType & prior_e);
 
@@ -288,10 +288,10 @@ Status Linklist<ElemType>::nextElem(ElemType e, ElemType & next_e)
 
 //function:reload =
 template<typename ElemType>
-Linklist<ElemType> Linklist<ElemType>::operator = (Linklist<ElemType> &rightR)
+Linklist<ElemType> Linklist<ElemType>::operator = (const Linklist<ElemType> &rightR)
 {
 	NodePointer p = NULL;
-	NodePointer rp = rightR.getHead();
+	NodePointer rp = rightR.head;
 	NodePointer s;
 
 	if(this != &rightR)

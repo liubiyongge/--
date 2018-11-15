@@ -14,11 +14,30 @@ template<class ElemType>
 int equal(ElemType e1,ElemType e2);
 //class funtion need equal;
 
+template<class ElemType>
+int bigger(ElemType e1,ElemType e2);
+
+template<class ElemType>
+int less(ElemType e1,ElemType e2);
 
 template<class ElemType>
 int equal(ElemType e1,ElemType e2)
 {
 	if(e1 == e2) return 1;
+	else return 0;
+}
+
+template<class ElemType>
+int bigger(ElemType e1,ElemType e2)
+{
+	if(e1 > e2) return 1;
+	else return 0;
+}
+
+template<class ElemType>
+int lesser(ElemType e1,ElemType e2)
+{
+	if(e1 < e2) return 1;
 	else return 0;
 }
 

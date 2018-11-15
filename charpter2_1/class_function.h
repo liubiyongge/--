@@ -8,8 +8,6 @@
 #ifndef CLASS_FUNCION 
 #define CLASS_FUNCION
 
-#include "const.h"
-#include "class_outfunction.h"
 
 template <class ElemType> 
 class Sqlist{

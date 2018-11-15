@@ -21,9 +21,9 @@ public:
 	};
 	typedef typename Linklist<ElemType>::LinkNode *typename Linklist<ElemType>::NodePointer;//point type 
 */
-	MyPolynomialLinklist<ElemType> operator + (MyPolynomialLinklist<ElemType> &L2);
+	MyPolynomialLinklist<ElemType> operator + (const MyPolynomialLinklist<ElemType> &L2);
 
-	MyPolynomialLinklist<ElemType> operator - (MyPolynomialLinklist<ElemType> &L2);
+	MyPolynomialLinklist<ElemType> operator - (const MyPolynomialLinklist<ElemType> &L2);
 
 	void randomInitalFill(int display=0);
 
@@ -36,7 +36,7 @@ public:
 ////////////////////////////////////////////////
 
 template <typename ElemType>
-MyPolynomialLinklist<ElemType> MyPolynomialLinklist<ElemType>::operator + (MyPolynomialLinklist<ElemType> &L2)
+MyPolynomialLinklist<ElemType> MyPolynomialLinklist<ElemType>::operator + (const MyPolynomialLinklist<ElemType> &L2)
 {
 	typename Linklist<ElemType>::NodePointer p1 = this->head;
 	typename Linklist<ElemType>::NodePointer p2 = L2.head;
@@ -95,8 +95,7 @@ MyPolynomialLinklist<ElemType> MyPolynomialLinklist<ElemType>::operator + (MyPol
 		assert(p3 != 0);
 
 		p3->data.coef = pt->data.coef;
-		p3->data.expn = pt->data.coef;
-
+		p3->data.expn = pt->data.expn;
 		pt = pt->next;
 		if(!L3.head)
 			L3.head = p3;
@@ -111,7 +110,7 @@ MyPolynomialLinklist<ElemType> MyPolynomialLinklist<ElemType>::operator + (MyPol
 }
 
 template <typename ElemType>
-MyPolynomialLinklist<ElemType> MyPolynomialLinklist<ElemType>::operator -(MyPolynomialLinklist<ElemType>& L2)
+MyPolynomialLinklist<ElemType> MyPolynomialLinklist<ElemType>::operator -(const MyPolynomialLinklist<ElemType>& L2)
 {
 	typename Linklist<ElemType>::NodePointer p2 = L2.head;
 

@@ -4,14 +4,34 @@
     > Mail: liubiyongge@163.com
     > Created Time: 2018年11月02日 星期五 11时52分30秒
  ************************************************************************/
-#include "../header.h"
+#include "../header.h" // head file in
+
+#include "../const.h" // const type in 
+
+#include "../class_outfunction.h" 
+#include "../class_function.h" //class 
+#include "Student.h" //class
+
+#include "../function.h"
+#include "../mySetSqlist.h"
+#include "test_Student.h"
+#include "test.h"
 
 int main()
 {
-
+	std::locale::global(std::locale("zh_CN.UTF-8"));
+	srand((unsigned)time(NULL));
 	Sqlist<int> S;
 	int choose; //存放操作代码
-	char continueYesNo = 'N';//判断是否继续
+	char contiueYesNO;
+	S.ListInsert_Sq(1, 20);
+	S.ListInsert_Sq(2, 85);
+	S.ListInsert_Sq(3, 45);
+	S.ListInsert_Sq(4, 51);
+	S.ListInsert_Sq(5, 15);
+	S.ListInsert_Sq(6, 95);
+	S.ListInsert_Sq(7, 66);
+	S.ListInsert_Sq(8, 62);
 	while(1)
 	{
 
@@ -33,20 +53,51 @@ int main()
         cout<< "\t14.两个顺序表的并交差运算"<< endl;
         cout<< "\t15.学生信息管理"<< endl;
         cout<< "  其他.结束"<< endl;
-
+        cout<< "////////////////////////////////////////"<<endl;
+        cout<< "the sequence have " << S.getLength() <<":"<<endl;
+        show(S);
+        cout<<"//////////////////////////////////////////"<<endl;
 		cout<<"Please enter your operate code(1-15):";
 		cin >> choose;
-		swicth(choose)
-		{case 1: ex3_1_1(rec, continueYesNo);
+		switch(choose)
+		{
+			case 1: ex3_1_1(S);
 			break;
-			case 2: ex3_1_2(rec, continueYesNo);
+			case 2: ex3_1_2(S);
 			break;
-			case 3: ex2_1_3(rec, continueYesNo);
+			case 3: ex3_1_3(S);
+			break;
+			case 4: ex3_1_4(S);
+			break;
+			case 5: ex3_1_5(S);
+			break;
+			case 6: ex3_1_6(S);
+			break;
+			case 7: ex3_1_7(S);
+			break;
+			case 8: ex3_1_8(S);
+			break;
+			case 9: ex3_1_9(S);
+			break;
+			case 10: ex3_1_10(S);
+			break;
+			case 11: ex3_1_11(S);
+			break;
+			case 12: ex3_1_12(S);
+			break;
+			case 13: ex3_1_13(S);
+			break;
+			case 14: ex3_1_14();
+			break;
+			case 15: ex3_1_15();
 			break;
 			default: cout<<"\n you choice have ended"<<endl<<endl;
 				return 0;
-
 		} 
+		cout<<"continue?(Y.continue\tN.end)";
+		cin >> contiueYesNO;
+		if(contiueYesNO == 'N' || contiueYesNO == 'n')
+			break;				
 
 	}
 
