@@ -10,6 +10,7 @@
 
 template<class ElemType> 
 void show(Linklist<ElemType>& L);
+
 //show elem 
 template<class ElemType>
 void show(Linklist<ElemType>& L)
@@ -18,8 +19,33 @@ void show(Linklist<ElemType>& L)
 	cout<<"length is "<<L.getLength()<<endl;
 	for(int i = 1; i <= L.getLength(); i++)
 		{
-			L.getElem(i, e);
-			cout<<e<<endl;
+			cout << setw(7) << "[" << i << "]";
 		}
+	cout << endl;
+	for(int i = 1; i <= L.getLength(); i++)
+		{
+			L.getElem(i, e);
+			cout << setw(7) << e << "->";
+		}
+		cout << "\b" << "\b" << "^ " << endl;
+}
+
+//elemtype is int
+template<typename ElemType>
+int bigger(ElemType e, ElemType e1)
+{
+	if(e > e1)
+		return 1;
+	else
+		return 0;
+}
+
+template<typename ElemType>
+int lesser(ElemType e, ElemType e1)
+{
+	if(e < e1)
+		return 1;
+	else
+		return 0;
 }
 #endif

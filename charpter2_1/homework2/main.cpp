@@ -19,7 +19,7 @@
 
 int main()
 {
-	std::locale::global(std::locale("zh_CN.UTF-8"));
+
 	srand((unsigned)time(NULL));
 	Sqlist<int> S;
 	int choose; //存放操作代码
