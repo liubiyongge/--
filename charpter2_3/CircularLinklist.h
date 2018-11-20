@@ -19,6 +19,8 @@ class CircularLinklist
 		};
 		typedef LinkNode *NodePointer;
 
+	//insert elem
+	void setCir();
 	//clear list
 	void clear();
 
@@ -34,17 +36,38 @@ class CircularLinklist
 	//move head to i node
 	Status moveHead(int i);
 
+	void show();
+
 	CircularLinklist<ElemType> operator = (CircularLinklist<ElemType> rightL);
 
 	//***********************
 	CircularLinklist();
 	~CircularLinklist();
 	CircularLinklist(const CircularLinklist& otherL);
+	
 
 protected:
 	NodePointer head;
 
 };
+
+template<typename ElemType>
+void CircularLinklist<ElemType>::setCir()
+{
+	NodePointer p, r;
+	for(int i = 1; i <= 10; i++)
+	{
+		p = new LinkNode;
+		p->data = rand()%100 + 1; 
+		if(i == 1)
+			head = p;
+		else
+			r->next = p;
+		r = p;
+	}
+	r->next = head;
+}
+
 
 template<typename ElemType>
 void CircularLinklist<ElemType>::clear()
@@ -164,6 +187,7 @@ CircularLinklist<ElemType>::CircularLinklist(const CircularLinklist<ElemType> &o
 	NodePointer p;
 	NodePointer op=otherL.head;
 	NodePointer s;
+	head = p = NULL;
 	while(op->next != otherL.head)
 		{
 			s = new(LinkNode);
@@ -177,8 +201,47 @@ CircularLinklist<ElemType>::CircularLinklist(const CircularLinklist<ElemType> &o
 			p = s;
 			op = op->next;
 		}
+		s = new(LinkNode);
+		assert(s != 0);
+		s->data = op->data;
+		p->next = s;
+		p = s;
 		if(head)
 			p->next = head;
+}
+
+//just for basic type
+template<typename ElemType>
+void CircularLinklist<ElemType>::show()
+{
+	if(!head)
+	{
+		cout << "约瑟夫环为空." << endl;
+		return;
+	}
+
+
+	NodePointer p = head;
+	int i = 1;
+	while(p->next != head)
+	{
+		cout << setw(7) << "[" << i << "]";
+		i++;
+		p = p->next;
+	}
+	cout << setw(7) << "[" << i << "]";
+	cout << endl;
+	p = head;
+	while(p->next != head)
+	{
+		cout << setw(7) << p->data << "->";
+		p = p->next;
+	}
+	cout << setw(7)<< p->data << "->"<<endl;
+	cout << "     ";
+	cout << "|";
+	for(int j=7; j<=i*9 - 2;j++) cout<<"_";
+	cout << "|" << endl;
 }
 #endif
 	
