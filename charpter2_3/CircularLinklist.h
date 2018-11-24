@@ -3,6 +3,7 @@
     > Author: liubiyongge
     > Mail: liubiyongge@163.com
     > Created Time: 2018年11月08日 星期四 15时07分18秒
+	》循环单链表
  ************************************************************************/
 
 #ifndef _CIRCULARLINKLIST_H
@@ -23,6 +24,9 @@ class CircularLinklist
 	void setCir();
 	//clear list
 	void clear();
+
+	//iput sercir
+	void inputCir();
 
 	//delete i node 
 	Status deleteElem(int i,ElemType &e);
@@ -59,6 +63,27 @@ void CircularLinklist<ElemType>::setCir()
 	{
 		p = new LinkNode;
 		p->data = rand()%100 + 1; 
+		if(i == 1)
+			head = p;
+		else
+			r->next = p;
+		r = p;
+	}
+	r->next = head;
+}
+
+template<typename ElemType>
+void CircularLinklist<ElemType>::inputCir()
+{
+	NodePointer p, r;
+	int n;
+	cout << "请输入你要输入的元素个数:";
+	cin >> n;  
+	for(int i = 1; i <= n; i++)
+	{
+		p = new LinkNode;
+		cout << "请输入第" << i << "个元素的数值:"; 
+		cin >> p->data; 
 		if(i == 1)
 			head = p;
 		else
