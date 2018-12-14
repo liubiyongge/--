@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="shu_renyan" targetName="shu_renyan" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2897d1b-74c5-4574-a781-0558f40e5024" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="245" selection-start-line="245" selection-end-line="245" />
+              <folding>
+                <element signature="e#280#292#0" expanded="true" />
+                <element signature="e#496#508#0" expanded="true" />
+                <element signature="e#713#725#0" expanded="true" />
+                <element signature="e#917#929#0" expanded="true" />
+                <element signature="e#1157#1169#0" expanded="true" />
+                <element signature="e#1396#1408#0" expanded="true" />
+                <element signature="e#1634#1646#0" expanded="true" />
+                <element signature="e#1874#1886#0" expanded="true" />
+                <element signature="e#2124#2136#0" expanded="true" />
+                <element signature="e#2364#2376#0" expanded="true" />
+                <element signature="e#2554#2566#0" expanded="true" />
+                <element signature="e#2674#2686#0" expanded="true" />
+                <element signature="e#2769#2781#0" expanded="true" />
+                <element signature="e#2858#2870#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HuffmanTree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="334" column="25" lean-forward="true" selection-start-line="334" selection-start-column="25" selection-end-line="334" selection-end-column="25" />
+              <folding>
+                <element signature="e#160#198#0" expanded="true" />
+                <element signature="e#224#260#0" expanded="true" />
+                <element signature="e#282#299#0" expanded="true" />
+                <element signature="e#1513#1525#0" expanded="true" />
+                <element signature="e#2075#2087#0" expanded="true" />
+                <element signature="e#3320#3332#0" expanded="true" />
+                <element signature="e#4437#4449#0" expanded="true" />
+                <element signature="e#6376#6388#0" expanded="true" />
+                <element signature="e#11483#11495#0" expanded="true" />
+                <element signature="e#12442#12454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeqTree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-243">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#803#815#0" expanded="true" />
+                <element signature="e#957#969#0" expanded="true" />
+                <element signature="e#1037#1049#0" expanded="true" />
+                <element signature="e#1124#1136#0" expanded="true" />
+                <element signature="e#1328#1340#0" expanded="true" />
+                <element signature="e#1751#1763#0" expanded="true" />
+                <element signature="e#2120#2132#0" expanded="true" />
+                <element signature="e#2281#2293#0" expanded="true" />
+                <element signature="e#2376#2388#0" expanded="true" />
+                <element signature="e#2437#2449#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThreadTree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11331">
+              <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+              <folding>
+                <element signature="e#155#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mytree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1139">
+              <caret line="88" column="27" lean-forward="true" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BiTree.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="392" column="47" selection-start-line="392" selection-start-column="47" selection-end-line="392" selection-end-column="47" />
+              <folding>
+                <element signature="e#64#79#0" expanded="true" />
+                <element signature="e#1868#1880#0" expanded="true" />
+                <element signature="e#1978#1990#0" expanded="true" />
+                <element signature="e#2062#2074#0" expanded="true" />
+                <element signature="e#2393#2405#0" expanded="true" />
+                <element signature="e#2477#2489#0" expanded="true" />
+                <element signature="e#2768#2780#0" expanded="true" />
+                <element signature="e#2950#2962#0" expanded="true" />
+                <element signature="e#3026#3038#0" expanded="true" />
+                <element signature="e#3292#3304#0" expanded="true" />
+                <element signature="e#3370#3382#0" expanded="true" />
+                <element signature="e#3484#3496#0" expanded="true" />
+                <element signature="e#3766#3778#0" expanded="true" />
+                <element signature="e#3872#3884#0" expanded="true" />
+                <element signature="e#3962#3974#0" expanded="true" />
+                <element signature="e#4166#4178#0" expanded="true" />
+                <element signature="e#4250#4262#0" expanded="true" />
+                <element signature="e#4608#4620#0" expanded="true" />
+                <element signature="e#5000#5012#0" expanded="true" />
+                <element signature="e#5364#5376#0" expanded="true" />
+                <element signature="e#5744#5756#0" expanded="true" />
+                <element signature="e#5838#5850#0" expanded="true" />
+                <element signature="e#6048#6060#0" expanded="true" />
+                <element signature="e#6140#6152#0" expanded="true" />
+                <element signature="e#6348#6360#0" expanded="true" />
+                <element signature="e#6465#6477#0" expanded="true" />
+                <element signature="e#6588#6600#0" expanded="true" />
+                <element signature="e#7139#7151#0" expanded="true" />
+                <element signature="e#7219#7231#0" expanded="true" />
+                <element signature="e#7452#7464#0" expanded="true" />
+                <element signature="e#7883#7895#0" expanded="true" />
+                <element signature="e#7942#7954#0" expanded="true" />
+                <element signature="e#8099#8111#0" expanded="true" />
+                <element signature="e#8204#8216#0" expanded="true" />
+                <element signature="e#8292#8304#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>seqtree</find>
+      <find>SeqTree</find>
+      <find>myseqtree</find>
+      <find>ElementType</find>
+      <find>El</find>
+      <find>ET</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>myseqtree</replace>
+      <replace>SeqTree</replace>
+      <replace>T</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bitree.h" />
+        <option value="$PROJECT_DIR$/tree.h" />
+        <option value="$PROJECT_DIR$/ThreadTree.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/SeqTree.h" />
+        <option value="$PROJECT_DIR$/BiTree.h" />
+        <option value="$PROJECT_DIR$/mytree.h" />
+        <option value="$PROJECT_DIR$/test.h" />
+        <option value="$PROJECT_DIR$/HuffmanTree.h" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="32" />
+    <option name="y" value="87" />
+    <option name="width" value="1717" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shu_renyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shu_renyan" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="shu_renyan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="shu_renyan" TARGET_NAME="shu_renyan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="shu_renyan" RUN_TARGET_NAME="shu_renyan">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2897d1b-74c5-4574-a781-0558f40e5024" name="Default Changelist" comment="" />
+      <created>1544582632426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544582632426</updated>
+      <workItem from="1544582634503" duration="7246000" />
+      <workItem from="1544617139437" duration="6787000" />
+      <workItem from="1544663541285" duration="25105000" />
+      <workItem from="1544705035343" duration="2016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41154000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="39" width="1920" height="1041" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25726587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.6535342" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32908458" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.89107764" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39976826" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32908458" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="huffSqList" language="ObjectiveC" />
+        <watch expression="huffSqList.size()" language="ObjectiveC" />
+        <watch expression="huffSqTree" language="ObjectiveC" />
+        <watch expression="resultQ.size()" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>resultQ.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>huffSqTree</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>huffSqList.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>huffSqList</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="798" selection-start-line="798" selection-end-line="798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_queue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="193" column="6" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/iomanip">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeqTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#803#815#0" expanded="true" />
+            <element signature="e#957#969#0" expanded="true" />
+            <element signature="e#1037#1049#0" expanded="true" />
+            <element signature="e#1124#1136#0" expanded="true" />
+            <element signature="e#1328#1340#0" expanded="true" />
+            <element signature="e#1751#1763#0" expanded="true" />
+            <element signature="e#2120#2132#0" expanded="true" />
+            <element signature="e#2281#2293#0" expanded="true" />
+            <element signature="e#2376#2388#0" expanded="true" />
+            <element signature="e#2437#2449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThreadTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11331">
+          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding>
+            <element signature="e#155#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BiTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="392" column="47" selection-start-line="392" selection-start-column="47" selection-end-line="392" selection-end-column="47" />
+          <folding>
+            <element signature="e#64#79#0" expanded="true" />
+            <element signature="e#1868#1880#0" expanded="true" />
+            <element signature="e#1978#1990#0" expanded="true" />
+            <element signature="e#2062#2074#0" expanded="true" />
+            <element signature="e#2393#2405#0" expanded="true" />
+            <element signature="e#2477#2489#0" expanded="true" />
+            <element signature="e#2768#2780#0" expanded="true" />
+            <element signature="e#2950#2962#0" expanded="true" />
+            <element signature="e#3026#3038#0" expanded="true" />
+            <element signature="e#3292#3304#0" expanded="true" />
+            <element signature="e#3370#3382#0" expanded="true" />
+            <element signature="e#3484#3496#0" expanded="true" />
+            <element signature="e#3766#3778#0" expanded="true" />
+            <element signature="e#3872#3884#0" expanded="true" />
+            <element signature="e#3962#3974#0" expanded="true" />
+            <element signature="e#4166#4178#0" expanded="true" />
+            <element signature="e#4250#4262#0" expanded="true" />
+            <element signature="e#4608#4620#0" expanded="true" />
+            <element signature="e#5000#5012#0" expanded="true" />
+            <element signature="e#5364#5376#0" expanded="true" />
+            <element signature="e#5744#5756#0" expanded="true" />
+            <element signature="e#5838#5850#0" expanded="true" />
+            <element signature="e#6048#6060#0" expanded="true" />
+            <element signature="e#6140#6152#0" expanded="true" />
+            <element signature="e#6348#6360#0" expanded="true" />
+            <element signature="e#6465#6477#0" expanded="true" />
+            <element signature="e#6588#6600#0" expanded="true" />
+            <element signature="e#7139#7151#0" expanded="true" />
+            <element signature="e#7219#7231#0" expanded="true" />
+            <element signature="e#7452#7464#0" expanded="true" />
+            <element signature="e#7883#7895#0" expanded="true" />
+            <element signature="e#7942#7954#0" expanded="true" />
+            <element signature="e#8099#8111#0" expanded="true" />
+            <element signature="e#8204#8216#0" expanded="true" />
+            <element signature="e#8292#8304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="88" column="27" lean-forward="true" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+          <folding>
+            <element signature="e#280#292#0" expanded="true" />
+            <element signature="e#496#508#0" expanded="true" />
+            <element signature="e#713#725#0" expanded="true" />
+            <element signature="e#917#929#0" expanded="true" />
+            <element signature="e#1157#1169#0" expanded="true" />
+            <element signature="e#1396#1408#0" expanded="true" />
+            <element signature="e#1634#1646#0" expanded="true" />
+            <element signature="e#1874#1886#0" expanded="true" />
+            <element signature="e#2124#2136#0" expanded="true" />
+            <element signature="e#2364#2376#0" expanded="true" />
+            <element signature="e#2554#2566#0" expanded="true" />
+            <element signature="e#2674#2686#0" expanded="true" />
+            <element signature="e#2769#2781#0" expanded="true" />
+            <element signature="e#2858#2870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HuffmanTree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="334" column="25" lean-forward="true" selection-start-line="334" selection-start-column="25" selection-end-line="334" selection-end-column="25" />
+          <folding>
+            <element signature="e#160#198#0" expanded="true" />
+            <element signature="e#224#260#0" expanded="true" />
+            <element signature="e#282#299#0" expanded="true" />
+            <element signature="e#1513#1525#0" expanded="true" />
+            <element signature="e#2075#2087#0" expanded="true" />
+            <element signature="e#3320#3332#0" expanded="true" />
+            <element signature="e#4437#4449#0" expanded="true" />
+            <element signature="e#6376#6388#0" expanded="true" />
+            <element signature="e#11483#11495#0" expanded="true" />
+            <element signature="e#12442#12454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

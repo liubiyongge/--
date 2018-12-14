@@ -56,6 +56,7 @@ void	LinkStack<Elem> ::show()
 			p = p-> next;	 
 		}
 		cout << "\b\b" << "  ";
+		cout << endl;
 
 	}
 
