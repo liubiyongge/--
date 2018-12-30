@@ -30,7 +30,7 @@ public:
 	sqQueue(const sqQueue<T> & otherL);
 
 	//******tmp***************
-	void show();
+	//void show();
 protected:
 	int queueSize;
 	int front;
@@ -146,7 +146,7 @@ sqQueue<T>::sqQueue(const sqQueue<T> & otherL)
 		i = (i+1)%queueSize;
 	}
 }
-
+/*
 //%%%%%%%%%%%%%%%%tmp%%%%%%%%%%%%%555
 template<typename T>
 void sqQueue<T>::show()
@@ -158,5 +158,5 @@ void sqQueue<T>::show()
 		i = (i+1)%queueSize;
 	}
 }
-
+*/
 #endif

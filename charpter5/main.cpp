@@ -13,6 +13,9 @@ int main()
 {
 	SqString L("abcefdsfsd");
 	SqString L1("sadf");
-	L.subString(L1, 2, 3);
+	L.show();
 	L1.show();
+	L.insert(1,L1);
+	L.insert(L.getLength()+1,L1);
+	L.show();
 }

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yanjiewei/Data Structure/TSMatrix/TSMatrix.h
+
+/home/yanjiewei/Data Structure/TSMatrix/header.h
+iomanip
+-
+iostream
+-
+algorithm
+-
+
+/home/yanjiewei/Data Structure/TSMatrix/main.cpp
+header.h
+/home/yanjiewei/Data Structure/TSMatrix/header.h
+TSMatrix.h
+/home/yanjiewei/Data Structure/TSMatrix/TSMatrix.h
+test.h
+/home/yanjiewei/Data Structure/TSMatrix/test.h
+
+/home/yanjiewei/Data Structure/TSMatrix/test.h
+

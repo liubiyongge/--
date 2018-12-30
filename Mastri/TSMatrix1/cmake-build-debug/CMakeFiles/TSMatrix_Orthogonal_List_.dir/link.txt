@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TSMatrix_Orthogonal_List_.dir/main.cpp.o  -o TSMatrix_Orthogonal_List_ 

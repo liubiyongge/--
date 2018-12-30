@@ -131,19 +131,24 @@ Status SqString::insert(int i, SqString t)
 {
 	if(i <= 0 || i > length+1 || t.isEmpty())
 		return ERROR;
-	ch = (char *)realloc(ch, sizeof(char)*(length+t.length));
-	assert(ch != NULL);
-	int j=0;
-	for(int m=length; m >= i-1; m--)
-		{
-			ch[t.length+length-1-j]= ch[m];
-			j++;
-		}
-	j = 0;
-	for(int m=i-1; m < t.length+i-1; m++, j++)
-		ch[m] = t.ch[j];
-
+	char *ch1 = (char *)malloc(sizeof(char)*(length+t.length));
+	assert(ch1 != NULL);
 	length = length+t.length;
+	int j = 0;// ch1
+	int m = 0;//ch
+	int n = 0;//t.ch
+	for(;j < i-1; j++, m++)
+		ch1[j] = ch[m];
+	
+	for(;n < t.length;n++,j++)
+		ch1[j] = t.ch[n];
+
+	for(; j < length; j++, m++)
+		ch1[j] = ch[m];
+
+	char *tmp = ch;
+	ch = ch1;
+	delete tmp; 
 	return OK;
 	
 
@@ -167,6 +172,7 @@ Status  SqString::subString(SqString &sub,int i, int len)
 	if(i < 1 && i+len-1 > length)
 		return ERROR;
 	sub.ch =(char *)malloc((len)*sizeof(char));
+	sub.length = len;
 	for(int j=i-1, m=0; m < len; j++, m++)
 		sub.ch[m] = ch[j];
 	return OK;

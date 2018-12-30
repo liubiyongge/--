@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/TSMatrix(Orthogonal List).h
+
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/header.h
+iomanip
+-
+iostream
+-
+algorithm
+-
+
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/main.cpp
+header.h
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/header.h
+test.h
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/test.h
+TSMatrix(Orthogonal List).h
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/TSMatrix(Orthogonal List).h
+
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/test.h
+TSMatrix(Orthogonal List).h
+/home/yanjiewei/Data Structure/TSMatrix(Orthogonal List)/TSMatrix(Orthogonal List).h
+
