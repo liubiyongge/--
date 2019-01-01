@@ -17,7 +17,8 @@ public:
 	void printMGraph();
 	void kruskal();
 	void Prim();
-//*******auto call**************************
+	// void Dijkstra();
+	//*******auto call**************************
 	MGraph();
 	~MGraph();
 
@@ -29,14 +30,72 @@ private:
 			f = set[f];
 		return f;
 	}
+	int minarc(int *shortest);
 private:
 	int kind;
 	int vexNum;
-	T *verxs;
+	T *vexs;
 	int arcNum;
 	int *arcs;
 	
 };
+
+template<typename T>
+int MGraph<T>::minarc(int *shortest)
+{
+	int min = shortest[0];
+	int min_i = 0;
+	for(int i = 1; i < vexNum; i++)
+	{
+		if(min > shortest[i])
+		{
+			min = shortest[i];
+			min_i = i;
+		}
+	}
+	return min_i;
+
+}
+
+/*未完
+template <typename T>
+void MGraph<T>::Dijkstra()
+{
+	char ch;
+	int begin;
+	int step = 1;
+	int shortest[vexNum];//存储到每个顶点的最短路径长度
+	int path[vexNum][vexNum] = {0};	
+
+	int final[vexNum] = {0};
+	int min_i;
+	cout << "请输入某顶点，求到其他所有顶点的最短路径:";
+	cin >> ch;
+	begin = getSerialNumber(ch);
+	for(int i = 0; i < vexNum; i++)
+	{
+		shortest[i] = arcs[begin * vexNum + i];
+		if(arcs[begin * vexNum + i] > 0)
+		{
+			path[i][begin] = step;
+		}
+	}
+	shortest[begin] = 0;
+	path[begin][begin] = step;
+
+	for(int i = 1; i < vexNum -1; i++)
+	{
+		min_i = minarc(shortest);
+		if(!path[min_i][min_i])
+			path[min_i][min_i] = ++step;
+		else
+			step = path[min_i][min_i];
+	}
+
+
+}
+*/
+
 template <typename T>
 void MGraph<T>::kruskal()
 {
@@ -175,7 +234,7 @@ int MGraph<T>::getSerialNumber(char ch)
 	int i;
 	for(i = 0; i < vexNum; i++)
 	{
-		if(ch == verxs[i])
+		if(ch == vexs[i])
 			break;
 	}
 	return i;
@@ -191,11 +250,11 @@ void MGraph<T>::input()
 	cin >> kind;
 	cout << "请输入顶点个数:";
 	cin >> vexNum;
-	verxs = (T *)malloc(sizeof(T) * vexNum);
+	vexs = (T *)malloc(sizeof(T) * vexNum);
 	for(int i = 0; i < vexNum; i++)
 	{
 		cout << "请输入第" << i + 1<< "个顶点:";
-		cin >> verxs[i];
+		cin >> vexs[i];
 	}
 	arcs = (int *)malloc(sizeof(int) * vexNum * vexNum);
 	for(int i = 0; i < vexNum * vexNum; i++)
@@ -256,7 +315,7 @@ MGraph<T>::MGraph()
 {
 	kind = -1;
 	vexNum = 0;
-	verxs = NULL;
+	vexs = NULL;
 	arcNum = 0;
 	arcs = NULL;
 }
@@ -264,7 +323,7 @@ MGraph<T>::MGraph()
 template <typename T>
 MGraph<T>::~MGraph()
 {
-	delete verxs;
+	delete vexs;
 	delete arcs;
 }
 

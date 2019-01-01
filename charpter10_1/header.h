@@ -1,10 +1,12 @@
 /*************************************************************************
-    > File Name: tmp.cpp
+    > File Name: header.h
     > Author: liubiyongge
     > Mail: liubiyongge@163.com
-    > Created Time: Mon 17 Dec 2018 03:12:46 PM CST
+    > Created Time: 2018年11月16日 星期五 16时45分28秒
  ************************************************************************/
 
+#ifndef _HEADER_H
+#define _HEADER_H
 #include<stdio.h>
 #include<malloc.h>
 #include<iostream>
@@ -12,21 +14,5 @@
 #include<iomanip>
 #include<stdlib.h>
 #include <string.h>
-
-#include "./charpter4_1/const.h"
-#include "./charpter4_1/sqQueue.h"
 using namespace std;
-
-
-int main()
-{
-	sqQueue<int *> queue;
-	int *p;
-	int *q;
-	queue.enQueue(p);
-	queue.enQueue(q);
-	queue.deQueue();
-	queue.deQueue();
-
-
-}
+#endif
